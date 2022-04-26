@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+        /*width: 1308px;*/
+}
+.header{
+    font-family: Sen;
+    display: flex;
+    flex-direction: column;
+}
+.bannerContainer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+.bannerButton {
+    padding: 5px 20px !important;
+    margin-right: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bannerItem {
+    color: #f9f9f9;
+    font-size: 16px;
+}
+.menuContainer {
+    background-color: #eb5757;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    }
+.customer {
+    width: 50%;
+}
+.buttonsContainer    {
+    display: inline-flex;
+    /*width: 50%;*/
+    justify-content: stretch;
+}
+
+.button {
+    border: none;
+    font-family: Sen;
+    color: #f9f9f9;
+    background-color: #eb5757;
+    font-size: 16px;
+    padding: 4px 10px ;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {background-color: black;}
+.button:active {background-color: #353536;}
+.bannerButton:hover {background-color: #ec6a6a;}
+.bannerButton:active {background-color: #ee4545;}
+.cart {
+    background-color: black;
+    cursor: pointer;
+    padding: 5px 16px;
+    border-radius: 5px;
+    }
+.dropdown {
+    position: relative;
+    flex-grow: 1;
+}
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    max-height: 400px;
+    right: 20px;
+    /*top: 53px;*/
+    border-radius: 7px;
+}
+.drop-content a {
+    text-decoration: none;
+    display: block;
+    color: #f9f9f9;
+    /*text-align: center;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.dropdown:hover .drop-content {display: block;}
+.drop-content a:hover {background-color: #353536; border-radius: 7px;}
